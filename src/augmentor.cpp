@@ -16,9 +16,9 @@ Image Augmentor
 
 /* ========== Parameters ========== */
 #define IMSHOW_ON false
-#define IMAGE_RAW_PATH  "/home/user/Documents/extracted_data/label.txt"
-#define IMAGE_SAVE_PATH "/home/user/Documents/augment_data"
-#define STEER_SAVE_PATH "/home/user/Documents/augment_data"
+#define IMAGE_RAW_PATH  "/home/user/Documents/extracted_data/label.txt"  // path for label
+#define IMAGE_SAVE_PATH "/home/user/Documents/augment_data"              // path for saving augmented images
+#define STEER_SAVE_PATH "/home/user/Documents/augment_data"              // path for saving augmented label
 #define ROI_SHIFT_CNT  4
 #define ROI_SHIFT_RES  35
 #define ROI_LEFTTOP_X  160
